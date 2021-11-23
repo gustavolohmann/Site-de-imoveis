@@ -26,7 +26,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="portifolio.php">Portifólio</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="contato.php">Contato</a></li>
         </ul>
     </nav>
     <nav class="cabecalho_mobile_">

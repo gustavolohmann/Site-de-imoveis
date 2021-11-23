@@ -126,6 +126,58 @@ header{
 
 
 /*Fim do Body*/
+
+/*Portifolio*/
+
+.text-apresen{
+    font-size: 50px;
+    color:rgb(128, 128, 128);
+    text-align: center;
+}
+.img-portifolio{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:100px;
+    max-width:100%;
+}
+
+.img-portifolio a img{
+    padding: 10px;
+    width:100%;
+}
+.texto-indentificao{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top:100px; 
+    border-bottom: 2px solid #62adf3;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.texto-param{
+    text-align: center;
+    color:#1c1c1c;
+    padding-bottom:50px;
+   
+    
+}
+.img-aprese{
+    margin-top:50px;
+}
+.img-aprese img{
+    margin-top:150px;
+    margin-left:725px;
+}
+.texto-expli{
+    max-width:400px;
+    margin-top:-450px;
+    margin-left: 50px;
+}
+
+/*Fim do portifolio*/
+
 .rodape{
     position: relative;
     width:100%;
