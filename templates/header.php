@@ -26,7 +26,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="portifolio.php">Portifólio</a></li>
-            <li><a href="contato.php">Contato</a></li>
+            <li><a href="registro.php">registro</a></li>
         </ul>
     </nav>
     <nav class="cabecalho_mobile_">
@@ -34,7 +34,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="portifolio.php">Portifólio</a></li>
-            <li><a href="contato.php">Contato</a></li>
+            <li><a href="registro.php">Registro</a></li>
         </ul>
     </nav>
     </header>

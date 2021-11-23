@@ -8,8 +8,8 @@
             <a href="portifolio.php">
                 <li>Portifólio</li>
             </a>
-            <a href="contato.php">
-                <li>Contato</li>
+            <a href="registro.php">
+                <li>Registro</li>
             </a>
         </ul>
         <div class="rodape_linha_dois">
