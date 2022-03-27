@@ -12,9 +12,9 @@
                 <li>Registro</li>
             </a>
         </ul>
-        <div class="rodape_linha_dois">
-            <p class="rodape_linha_dois_direitos">©Todos os direitos reservador a Gustavo Lohmann Linz 2021</p>
-        </div>
+        <p class="rodape_linha_dois_direitos">©Todos os direitos reservador a Gustavo Lohmann Linz 2021</p>
+    </div>
 </footer>
 </body>
+<script src="../js/index.js"></script>
 </html>

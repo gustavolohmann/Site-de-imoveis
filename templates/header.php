@@ -10,31 +10,21 @@
     <title>Imoveis</title>
 </head>
 <body>
+    <!--Menu e logo de navegação entre paginas-->
+    <header>
     <div class="links_de_midias">
         <a class="links_de_midias_" href="#" ><i class="fab fa-facebook"></i></a>
         <a class="links_de_midias_" href="#"><i class="fab fa-linkedin"></i></a>
         <a class="links_de_midias_" href="#"><i class="fab fa-youtube"></i></a>
     </div>
-    <!--Menu e logo de navegação entre paginas-->
-    <header>
-    <div class="cabecalho_imagem">
-        <a href="index.php">
-            <img class = "imagem_logo" src="../img/logo_casa.png" alt="logo">
-        </a>
-    </div>
     <nav class="cabecalho_navegacao">
+        <a href="index.php"><img id="logo" class = "imagem_logo" src="../img/logo_casa.png" alt="logo"></a>
         <ul>
+        <button type="button" name="btn" id="btn_hidden">X</button>
             <li><a href="index.php">Home</a></li>
             <li><a href="portifolio.php">Portifólio</a></li>
             <li><a href="registro.php">registro</a></li>
         </ul>
     </nav>
-    <nav class="cabecalho_mobile_">
-        <a class="icon-menu"><i class="fas fa-bars"></i></a>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="portifolio.php">Portifólio</a></li>
-            <li><a href="registro.php">Registro</a></li>
-        </ul>
-    </nav>
+    <button type="button" name="btn" id="btn_mobile"><i class="fas fa-bars"></i></button>
     </header>

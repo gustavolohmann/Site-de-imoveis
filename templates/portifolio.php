@@ -42,12 +42,14 @@
         </p>
     </div>
     <div class = "img-aprese">
-        <img src="../img/Plantas-de-Casas.jpg" alt="">
+        <ul>
         <p class="texto-expli">
+        <img src="../img/Plantas-de-Casas.jpg" alt="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae vel dolorem deserunt esse, consequuntur optio perspiciatis a pariatur quos. Nostrum possimus eveniet ea? Recusandae architecto mollitia repellat dolores nesciunt!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae vel dolorem deserunt esse, consequuntur optio perspiciatis a pariatur quos. Nostrum possimus eveniet ea? Recusandae architecto mollitia repellat dolores nesciunt!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae vel dolorem deserunt esse, consequuntur optio perspiciatis a pariatur quos. Nostrum possimus eveniet ea? Recusandae architecto mollitia repellat dolores nesciunt!
         </p>
+        </ul>
     </div>
 <?php
     include_once("footer.php");
