@@ -190,11 +190,8 @@
 /*Registro*/
 
 .cad-input {
-    width: 100%;
+    max-width: 100%;
     height: 50vh;
-    border: 1px solid #62adf3;
-    border-radius: 5px;
-    background: #62adf3;
 }
 
 .tnt-pagina {
@@ -206,12 +203,11 @@
 .cad-input input {
     display: block;
     margin: 50px auto;
-    width: 400px;
-    height: 5vh;
-    border: none;
+    width: 500px;
+    height: 7vh;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 1px 1px;
 }
 
 .cad-input button {
@@ -220,9 +216,9 @@
     border: 1px solid;
     border-radius: 5px;
     text-transform: uppercase;
-    background: #1c1c1c;
+    background: #62adf3;
     color: #fff;
-    width: 350px;
+    width: 400px;
     height: 5vh;
 }
 
