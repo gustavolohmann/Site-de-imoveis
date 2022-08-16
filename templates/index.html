@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href=../css/css.css>
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>Imóveis</title>
+</head>
+
+<body>
+   <!--Menu e logo de navegação entre paginas-->
+   <header>
+      <div class="links_de_midias">
+         <a class="links_de_midias_" href="#"><i class="fab fa-facebook"></i></a>
+         <a class="links_de_midias_" href="#"><i class="fab fa-linkedin"></i></a>
+         <a class="links_de_midias_" href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <nav class="cabecalho_navegacao">
+         <a href="index.php"><img id="logo" class="imagem_logo" src="../img/logo_casa.png" alt="logo"></a>
+         <ul>
+            <button type="button" name="btn" id="btn_hidden">X</button>
+         </ul>
+      </nav>
+      <button type="button" name="btn" id="btn_mobile"><i class="fas fa-bars"></i></button>
+   </header>
+   <main>
+      <section>
+         <div class="titulo_principal"></div>
+         <div class="container-texto">
+            <p class="texto__">
+               Encontramos, em todo o Brasil, moradias com baixa qualidade de construção por terem sido feitas sem o
+               auxílio de profissionais capacitados. A solução? Democratizar a arquitetura. Dessa forma, todos teriam
+               projetos arquitetônicos de suas casas, guiando toda a obra e garantindo bem-estar e qualidade de vida a
+               todos os moradores e seus vizinhos.
+            </p>
+         </div>
+         <div class="imagens_de_trabalho">
+            <div class="container-img">
+               <div class="container-child-img">
+                  <img src="../img/img-apresentacao-1.jpg" alt="">
+                  <div class="informacao">
+                     <p>Rua numero 1, Campinas</p>
+                     <p class="preco">R$ 500,000</p>
+                  </div>
+               </div>
+               <div class="container-child-img">
+                  <img src="../img/img-apresentacao-2.jpg" alt="">
+                  <div class="informacao">
+                     <p>Rua numero 2, Campinas</p>
+                     <p class="preco">R$ 150,000</p>
+                  </div>
+               </div>
+               <div class="container-child-img">
+                  <img src="../img/img-apresentacao-3.jpg" alt="">
+                  <div class="informacao">
+                     <p>Rua numero 3, Campinas</p>
+                     <p class="preco">R$ 300,000</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-icon">
+            <div>
+               <img src="../icons/procurar.png" alt="">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quaerat, inventore adipisci, facere
+                  accusantium eum qui alias debitis</p>
+            </div>
+            <div>
+               <img src="../icons/imobiliaria.png" alt="">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quaerat, inventore adipisci, facere
+                  accusantium eum qui alias debitis</p>
+            </div>
+            <div>
+               <img src="../icons/emprestimo.png" alt="">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quaerat, inventore adipisci, facere
+                  accusantium eum qui alias debitis</p>
+            </div>
+         </div>
+      </section>
+      <h1 class="text-apresen">Conheça nossos projetos</h1>
+      <div class="img-portifolio">
+         <div class="container-button-change-img">
+            <button id="change-img-first"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="change-img-second"><i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+         <img class="img-carrosuel" src="../img-car/home-moderna-1.jpg">
+         <img class="img-carrosuel" src="../img-car/home-moderna-2.jpg">
+         <img class="img-carrosuel" src="../img-car/home-moderna-3.jpg">
+         <img class="img-carrosuel" src="../img-car/home-moderna-4.jpg">
+         <img class="img-carrosuel" src="../img-car/home-moderna-5.jpg">
+      </div>
+      <section>
+         <div class="localizacao_mapa">
+            <h1 class="localizacao_mapa_titulo">Venha nos conhecer</h1>
+            <iframe class="localizacao_mapa_"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20790.225811140124!2d-47.094876562675566!3d-22.904981406144202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e3!4m0!4m0!5e0!3m2!1spt-BR!2sbr!4v1626636904330!5m2!1spt-BR!2sbr"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+      </section>
+   </main>
+   <h1 class="tnt-pagina">Registre-se para receber novidades</h1>
+   <div class="container-form">
+      <form class="cad-input" action="../config/index.php" method="POST">
+         <div>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            <input type="text" id="email" name="email" placeholder="Digite seu email" required>
+            <button type="button" name="submit">Enviar</button>
+         </div>
+      </form>
+   </div>
+   <footer>
+      <div class="container-footer"></div>
+   </footer>
+</body>
+<script src="../js/index.js"></script>
+
+</html>
