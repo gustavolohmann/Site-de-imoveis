@@ -22,14 +22,22 @@
     color: #fff;
 }
 
+
+
 .cabecalho_navegacao {
+    position: relative;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
     height: 30vh;
     border-bottom: 2px solid #808080;
-    padding: 10px;
+}
+
+#logo {
+    max-width: 100%;
+    width: 300px;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
 }
 
 .cabecalho_navegacao ul {
@@ -60,29 +68,48 @@
 
 
 /* Começo do Body -----------------------------------------------*/
-
-.imagem_comeco {
-    max-width: 100%;
-    opacity: 0.8;
-}
-
-.titulo_principal {
+.container-main-apresentacao {
+    position: relative;
     background-image: url("../img/architecture-2768284_1920.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 75vh;
     margin-top: 50px;
-    opacity: 0.8;
 }
 
-.texto__ {
+.container-search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    color: #1c1c1c;
-    height: 20vh;
-    text-align: center;
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container-search input {
+    padding: 0 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #e0e0e0;
+    box-shadow: 5px 5px 10px 1px #dadada;
+}
+
+.container-search button {
+    width: 100px;
+    height: 40px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 
 /*/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\*/
@@ -105,6 +132,7 @@
     width: 100%;
     padding: 0 10px;
     box-shadow: 1px 10px 10px #e0e0e0;
+    cursor: pointer;
 }
 
 .container-child-img img {
@@ -174,11 +202,7 @@
     width: 100%;
 }
 
-/*Fim do Body*/
-
-
 /*Portifolio*/
-
 .text-apresen {
     font-size: 50px;
     color: #808080;
@@ -192,55 +216,53 @@
 }
 
 .img-portifolio {
-    position: relative;
+    width: 100%;
+}
+
+
+.container-imgs {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-shrink: 1;
-}
-
-.container-button-change-img {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    align-items: flex-start;
     width: 100%;
-    max-width: 100%;
-    z-index: 1000;
+    padding: 10px;
+    gap: 10px;
 }
 
-.container-button-change-img button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid #808080;
-    background-color: #1c1c1c;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
+.container-imgs div {
+    width: 100%;
+    height: 517px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 1px #cfcfcf;
+
+}
+
+.container-imgs ul {
+    display: flex;
+    flex-direction: column;
+    color: #808080;
+}
+
+.container-imgs ul li {
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.container-imgs p {
+    padding: 10px 0;
+    font-weight: bold;
+    color: #808080;
 }
 
 .img-carrosuel {
     width: 100%;
-    height: 650px;
+    height: 200px;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
 }
-
-/* .class-animation-slide {
-    animation: animation_carousel 2s forwards ease-out;
-}
-
-@keyframes animation_carousel {
-    to {
-        left: 100%;
-    }
-} */
-/*Fim do portifolio*/
 
 /*Registro*/
 
