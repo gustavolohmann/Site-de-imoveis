@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .imagens_de_trabalho {
+        flex-direction: column;
+    }
+
+    .container-img {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container-child-img {
+        width: 100%;
+        height: 500px;
+    }
+    .container-child-img img{
+        width: 100%;
+        height: 350px;
+    }
+    .container-imgs{
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .container-imgs div{
+        width: 50%;
+    }
+    .img-carrosuel {
+        height: auto;
+    }
+}

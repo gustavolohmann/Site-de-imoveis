@@ -120,7 +120,7 @@
 .container-img {
     display: flex;
     align-items: center;
-    justify-content: center;
+    max-width: 100%;
     gap: 10px;
     padding: 20px;
 }
@@ -145,12 +145,13 @@
 }
 
 .informacao {
+    padding: 10px 20px;
     width: 100%;
+    height: 100%;
 }
 
-.container-img p {
+.informacao p {
     width: 100%;
-    padding: 30px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -158,48 +159,6 @@
 .preco {
     font-weight: bold;
     color: #808080;
-}
-
-/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
-
-/*/\/\/\/\/\/\/\  - ICONS - /\/\//\/\/\/\/\*/
-.container-icon {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    margin: 50px 0;
-}
-
-.container-icon div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 20px;
-    color: #4d4d4d;
-}
-
-.container-icon div img {
-    width: 150px;
-}
-
-.localizacao_mapa {
-    border-top: 2px solid #62adf3;
-    margin: 50px;
-}
-
-.localizacao_mapa_titulo {
-    text-align: center;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #808080;
-}
-
-.localizacao_mapa_ {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    width: 100%;
 }
 
 /*Portifolio*/
@@ -219,11 +178,9 @@
     width: 100%;
 }
 
-
 .container-imgs {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     width: 100%;
     padding: 10px;
     gap: 10px;
@@ -239,18 +196,13 @@
 
 }
 
-.container-imgs ul {
-    display: flex;
-    flex-direction: column;
-    color: #808080;
-}
-
-.container-imgs ul li {
+.container-imgs div ul li {
     padding: 5px 0;
     font-weight: bold;
 }
 
 .container-imgs p {
+    font-weight: bold;
     padding: 10px 0;
     font-weight: bold;
     color: #808080;
@@ -263,6 +215,51 @@
     max-height: 100%;
     object-fit: cover;
 }
+
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
+/*/\/\/\/\/\/\/\  - ICONS - /\/\//\/\/\/\/\*/
+.container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.container-icon div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    color: #4d4d4d;
+}
+
+.container-icon div img {
+    width: 150px;
+}
+
+/*\/\/\/\/\/\/\fim icons\/\/\/\/\/\/\*/
+.localizacao_mapa {
+    border-top: 2px solid #62adf3;
+    margin: 50px;
+}
+
+.localizacao_mapa_titulo {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.localizacao_mapa_ {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+
 
 /*Registro*/
 
@@ -357,13 +354,6 @@
         display: flex;
         justify-content: center;
         max-width: 100%;
-    }
-
-    .imagens_de_trabalho ul {
-        display: flex;
-        gap: 1rem;
-        justify-content: center;
-        flex-wrap: wrap;
     }
 
     header {
